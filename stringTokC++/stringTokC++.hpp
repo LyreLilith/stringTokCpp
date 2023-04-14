@@ -1,9 +1,10 @@
 #pragma once
 #include <iostream>
 /**
-*Function: stringTok
+* Function: stringTok
 * Description, tokenizes an input string, returns the token, edits
 * the line to the vaules right of the delemiter
+* Preconditons: input string.size() < INT_MAX
 * Input Parameters: string stringToTokenize, string delimeter
 * Output Parameters: string token, &rightSideOfToken
 **/
